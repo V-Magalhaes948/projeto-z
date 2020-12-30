@@ -1,0 +1,78 @@
+.container {
+    position: relative;
+  }
+
+
+
+
+
+body, ul, li, p {
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1,2rem;
+    font-family: Arial;
+
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.article {
+    float: center;
+    padding: 10px;
+    text-align: center;
+    background-color: cyan;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+  }
+
+#content {
+    background-color: green;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;  
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    justify-content: space-evenly; 
+    align-items: center;
+    
+
+}
+
+.Footer-header, .item {
+    width: 300px;
+    color: black;
+    float: center;
+    margin: 5px;
+    height: 40px;
+    background: white;
+    
+}
