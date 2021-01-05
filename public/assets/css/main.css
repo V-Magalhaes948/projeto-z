@@ -16,6 +16,7 @@ header {
 	position: fixed;
 	background-color: black;
 	z-index: 1;
+	height: 50px;
 }
 
 .header {
@@ -40,8 +41,8 @@ header {
 .article {    
     width: 100%;
     background-color: black;
-    height: 600px;
-    margin-bottom: 30px;
+    height: 900px;
+    
     overflow: hidden;
   }
   
@@ -52,14 +53,14 @@ header {
 			position: absolute;
 			opacity: 0;
 			animation-name: animacao;
-			animation-duration: 30s;
+			animation-duration: 40s;
 			animation-iteration-count: infinite;
 			width: 100%;
 			left: 0;
 		}
 
 #content {
-    background-color: green;
+    background-color:black;
     height: 300px;
     width: 100%;
     display: flex;
@@ -72,11 +73,11 @@ header {
 
 	.Footer-header, .item {
 		width: 300px;
-		color: black;
+		color: white;
 		float: center;
 		margin: 5px;
 		height: 40px;
-		background: white;   
+		background: black;   
 	}
 
 .nova-div {
@@ -106,10 +107,10 @@ header {
     animation-delay: 0s;
   }
 .foto:nth-child(2){
-    animation-delay: 10s;  
+    animation-delay: 15s;  
 }
 .foto:nth-child(3){
-    animation-delay: 20s;  
+    animation-delay: 35s;  
 }
 
 
