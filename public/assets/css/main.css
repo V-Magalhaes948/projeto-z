@@ -15,37 +15,44 @@ header {
 	
 }
 
-.header {
+.header-inner {
     justify-content: center;
 	align-items: center;
 	display: flex;
 	padding: 25px;
+	width: 1000px;
+	margin: 0 auto;
 	
 }
 
 	.logo {
-		color: #999999;
+		color: aliceblue;
 		text-decoration: none;
+		padding: 20px;
+		margin: 5px;
 	}
 
 	.menu {
 		display: flex;
+		width: 480px;
+		
 	}
 
 	.menu .item a {
 		display: block;
 		padding: 10px;
-		color: #999999;
+		color: aliceblue;
+		text-decoration: none;
 
 	}
 
 	.menu .item a::after {
 		content:'';
 		position: absolute;
-		background-color: #999999;
+		background-color:aliceblue;
 		width: 1px;
 		height: 14px;
-		margin-left: 20px;
+		margin-left: 10px;
 		
 		
 	}
@@ -90,7 +97,7 @@ header {
 
 	.Footer-header, .item {
 		width: 300px;
-		color: white;
+		color:aliceblue;
 		float: center;
 		margin: 5px;
 		height: 40px;
@@ -100,7 +107,7 @@ header {
 .nova-div {
 	width: 100%;
 	height: 50px;
-	background: gray;
+	background: aliceblue;
 }
 
 
