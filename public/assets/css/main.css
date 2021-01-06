@@ -16,28 +16,45 @@ header {
 	position: fixed;
 	background-color: black;
 	z-index: 1;
-	height: 50px;
+	height: 90px;
+	
 }
 
 .header {
-    justify-content: space-between;
+    justify-content: center;
 	align-items: center;
-    display: flex;
+	display: flex;
+	padding: 25px;
+	color: #999999;
 }
 
 	.menu {
 		display: flex;
 	}
 
-	.menu li {
-		margin-left: 10px;
-	}
-
-	.menu li a {
+	.menu .item a {
 		display: block;
 		padding: 10px;
+		color: #999999;
+
+	}
+
+	.menu .item a::after {
+		content:'';
+		position: absolute;
+		background-color: #999999;
+		width: 1px;
+		height: 14px;
+		margin-left: 20px;
+		
+		
 	}
 	
+	.menu .item:last-child a::after  {
+		display: none;
+		
+	}
+
 .article {    
     width: 100%;
     background-color: black;
@@ -112,6 +129,9 @@ header {
 .foto:nth-child(3){
     animation-delay: 35s;  
 }
+
+
+
 
 
 
