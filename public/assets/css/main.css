@@ -2,8 +2,8 @@ body, ul, li, p {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-size: 1,2rem;
-    font-family: Arial;
+    font-size: 1,6rem;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 header {
@@ -29,13 +29,19 @@ header {
 	.logo {
 		color: aliceblue;
 		text-decoration: none;
-		padding: 20px;
-		margin: 5px;
+		padding: 0px;
+		margin: 0px;
+		position: fixed;
+		top: 25px;
+		left: 350px;
+		
+		
 	}
 
 	.menu {
 		display: flex;
 		width: 480px;
+		height: 200px;
 		
 	}
 
