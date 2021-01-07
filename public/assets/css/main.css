@@ -12,7 +12,8 @@ header {
 	background-color: black;
 	z-index: 1;
 	height: 90px;
-	
+	opacity: 0.5;
+	text-transform: uppercase;
 }
 
 .header-inner {
