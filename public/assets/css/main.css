@@ -16,12 +16,12 @@ header {
 }
 
 .header-inner {
-    justify-content: center;
-	align-items: center;
+    justify-content: flex-start;
 	display: flex;
-	padding: 25px;
+	padding: 10px;
 	width: 1000px;
 	margin: 0 auto;
+	align-items: center;
 
 }
 
@@ -30,19 +30,14 @@ header {
 		text-decoration: none;
 		padding: 0px;
 		margin: 0px;
-		position: fixed;
-		top: 25px;
-		left: 350px;
+		
 	}
 
-        .logo img {
-            position: absolute;
-            top: -12px;
-        }
 
 	.menu {
 		display: flex;
 		width: 480px;
+		margin-left: 20px;
     }
 
     .menu .item {
