@@ -122,7 +122,10 @@ footer {
 				margin: 0px;
 				height: 30px;
 				color: white;
-				font-size: 18px;
+				font-size: 13px;
+				font-family: 'Montserrat', sans-serif; 
+
+				
 			}
 			footer .footer-inner .footer-nav .footer-header:hover{
 				text-decoration: underline;
@@ -131,6 +134,8 @@ footer {
 				color: #ffffff80;
 				margin: 0;
 				height: 25px;
+				font-size: 12px;
+				font-family: 'Montserrat', sans-serif;
 				 
 					
 			}
