@@ -120,10 +120,11 @@ footer {
 		}
 			footer .footer-inner .footer-nav .footer-header {
 				margin: 0px;
-				height: 30px;
+				margin-bottom: 5px;
 				color: white;
 				font-size: 13px;
-				font-family: 'Montserrat', sans-serif; 
+				font-family: 'Montserrat', sans-serif;
+ 
 
 				
 			}
@@ -133,9 +134,10 @@ footer {
 			footer .footer-inner .footer-nav .item {
 				color: #ffffff80;
 				margin: 0;
-				height: 25px;
 				font-size: 12px;
 				font-family: 'Montserrat', sans-serif;
+				line-height: 18px;
+
 				 
 					
 			}
