@@ -116,12 +116,13 @@ footer {
 
 		footer .footer-inner .footer-nav {
 			
-			text-align: left;		
+			text-align: left;
+			margin-left: 40px;		
 		}
 			footer .footer-inner .footer-nav .footer-header {
 				margin: 0px;
 				margin-bottom: 5px;
-				color: white;
+				color: #999;
 				font-size: 13px;
 				font-family: 'Montserrat', sans-serif;
  
@@ -132,7 +133,7 @@ footer {
 				text-decoration: underline;
 			}
 			footer .footer-inner .footer-nav .item {
-				color: #ffffff80;
+				color: #545454;
 				margin: 0;
 				font-size: 12px;
 				font-family: 'Montserrat', sans-serif;
