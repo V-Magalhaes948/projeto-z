@@ -54,7 +54,6 @@ header {
 
     .menu .item a:hover {
         color: rgba(255, 255, 255, 1);
-        text-decoration: underline;
     }
 
 	.menu .item::after {
@@ -130,19 +129,18 @@ footer {
 				
 			}
 			footer .footer-inner .footer-nav .footer-header:hover{
-				text-decoration: underline;
+				color: rgba(255, 255, 255, 1);
 			}
 			footer .footer-inner .footer-nav .item {
 				color: #545454;
 				margin: 0;
 				font-size: 12px;
 				font-family: 'Montserrat', sans-serif;
-				line-height: 18px;
-
-				 
-					
+				line-height: 18px;		
 			}
-
+			footer .footer-inner .footer-nav .item:hover{
+				color: rgba(255, 255, 255, 1);
+			}
 
 
 
