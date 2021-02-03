@@ -54,7 +54,6 @@ header {
 
     .menu .item a:hover {
         color: rgba(255, 255, 255, 1);
-        text-decoration: underline;
     }
 
 	.menu .item::after {
@@ -116,30 +115,32 @@ footer {
 
 		footer .footer-inner .footer-nav {
 			
-			text-align: left;		
+			text-align: left;
+			margin-left: 40px;		
 		}
 			footer .footer-inner .footer-nav .footer-header {
 				margin: 0px;
-				height: 30px;
-				color: white;
+				margin-bottom: 5px;
+				color: #999;
 				font-size: 13px;
-				font-family: 'Montserrat', sans-serif; 
+				font-family: 'Montserrat', sans-serif;
+ 
 
 				
 			}
 			footer .footer-inner .footer-nav .footer-header:hover{
-				text-decoration: underline;
+				color: rgba(255, 255, 255, 1);
 			}
 			footer .footer-inner .footer-nav .item {
-				color: #ffffff80;
+				color: #545454;
 				margin: 0;
-				height: 25px;
 				font-size: 12px;
 				font-family: 'Montserrat', sans-serif;
-				 
-					
+				line-height: 18px;		
 			}
-
+			footer .footer-inner .footer-nav .item:hover{
+				color: rgba(255, 255, 255, 1);
+			}
 
 
 
