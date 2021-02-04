@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/assets/libs/splide-2.4.21/dist/css/splide.min.css">
 </head>
 <body>
     
@@ -27,7 +28,6 @@
         </header>
 
         <article>
-            <div class="article-inner">
                 <div id="card-slider" class="splide">
                     <div class="splide__track">
                         <ul class="splide__list">
@@ -54,8 +54,7 @@
                             </li>
                         </ul>
                     </div>
-                </div> 
-            </div>       
+                </div>        
         </article>
 
         <footer>
@@ -105,5 +104,18 @@
     
 
     <script src="public/assets/js/main.js"></script>
+    <script src="public/assets/libs/splide-2.4.21/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+	        new Splide('#card-slider', {
+                perPage    : 1,
+		        breakpoints: {
+			        600: {
+				        perPage: 1,
+			        }
+		        }
+	        }).mount();
+        });
+    </script>
 </body>
 </html>
