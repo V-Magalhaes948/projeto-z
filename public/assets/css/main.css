@@ -73,13 +73,8 @@ header {
 
 article {
     width: 100%;
-    background-color: black;
-	height: 1000px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	flex-wrap: wrap;
+    background: yellow;
+	height: 50%;
 }
 
 
